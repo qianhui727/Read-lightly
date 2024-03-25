@@ -1,0 +1,143 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fff;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	height: 48px;
+	padding: 0 16px;
+	border: 2px solid rgba(0, 0, 0, 0.08);
+
+	.back {
+		width: 36px;
+		height: 36px;
+		text-align: center;
+		line-height: 36px;
+		color: #939191;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-radius: 8px;
+		margin-right: 8px;
+		font-size: 24px;
+		cursor: pointer;
+	}
+
+	.title {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: inline-block;
+		vertical-align: bottom;
+		font-size: 16px;
+		font-weight: 500;
+		color: #c6c6c6;
+		line-height: 24px;
+		margin-right: 5px;
+	}
+
+	.upload {
+		font-size: 20px;
+	}
+}
+
+.show {
+	display: flex;
+
+	.container1 {
+		flex: 1;
+		height: 93vh;
+		border: 1px solid rgba(0, 0, 0, 0.08);
+		margin-top: -1px;
+
+		.nav1 {
+			height: 46px;
+			padding: 0 16px;
+			box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
+			border: 1px solid rgba(0, 0, 0, 0.08);
+			white-space: nowrap;
+			overflow: hidden;
+			vertical-align: bottom;
+			margin-top: -1px;
+			line-height: 46px;
+			text-overflow: ellipsis;
+			font-weight: 600;
+			font-size: 14px;
+			letter-spacing: 0;
+		}
+
+		.wenzhang {
+			overflow: scroll;
+			overflow-x: hidden;
+			height: 80vh;
+			width: 45vw;
+			margin: 20px auto;
+			padding: 10px 20px;
+			background-color: rgb(241, 250, 245);
+		}
+
+		.wenzhang::-webkit-scrollbar {
+			width: 8px;
+			/* 设置滚动条宽度 */
+			background-color: white;
+			/* 设置滚动条区域背景色为白色 */
+		}
+
+		.wenzhang::-webkit-scrollbar-track {
+			background-color: white;
+			/* 设置滚动条轨道背景色为白色 */
+		}
+
+		.wenzhang::-webkit-scrollbar-thumb {
+			background-color: white;
+			/* 设置滚动条滑块颜色为白色 */
+			border-radius: 4px;
+			/* 设置滚动条滑块圆角 */
+		}
+	}
+
+	.container2 {
+		flex: 1;
+
+		.nav2 {
+			padding: 0 16px;
+			height: 100%;
+			position: relative;
+		}
+	}
+
+	.container2::-webkit-scrollbar {
+		width: 8px;
+		/* 设置滚动条宽度 */
+		background-color: white;
+		/* 设置滚动条区域背景色为白色 */
+	}
+
+	.container2::-webkit-scrollbar-track {
+		background-color: white;
+		/* 设置滚动条轨道背景色为白色 */
+	}
+
+	.container2::-webkit-scrollbar-thumb {
+		background-color: white;
+		/* 设置滚动条滑块颜色为白色 */
+		border-radius: 4px;
+		/* 设置滚动条滑块圆角 */
+	}
+}
+
+:global(.ant-upload-wrapper) {
+	display: flex;
+	margin-left: 50px;
+}
+
+:global(.ant-upload-select) {
+	flex: 1;
+}
+
+:global(.ant-upload-list-item-container) {
+	flex: 1;
+}

@@ -1,0 +1,38 @@
+:global(ant-layout) {
+	width: 100vw !important;
+	height: 100vh !important;
+}
+
+.layout {
+
+	.sider {
+		.logo {
+			height: 32px;
+			margin: 30px 15px 30px 15px;
+			color: rgb(0, 21, 41);
+			background: #fff;
+			font-size: 18px;
+			text-align: center;
+			line-height: 30px;
+			border-radius: 10px;
+		}
+	}
+
+	.header {
+		padding: 0;
+		background: #fff;
+
+		.text {
+			display: inline-block;
+			font-size: 16px;
+			width: 64px;
+			height: 64px;
+		}
+
+		.bread {
+			display: inline-block;
+		}
+	}
+
+
+}

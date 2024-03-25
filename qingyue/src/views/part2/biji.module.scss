@@ -1,0 +1,38 @@
+:global(.ant-tabs-content) {
+	height: calc(100% - 16px);
+
+	:global(.ant-tabs-tabpane) {
+		height: 100%;
+	}
+}
+
+.rootBox {
+	height: 100%;
+
+	.title {
+		width: 100%;
+		height: 60px;
+		padding: 10px 48px 0;
+		box-sizing: border-box;
+		margin-top: 16px;
+		margin-bottom: 10px;
+
+		.input {
+			padding: 0 0 10px;
+			border-bottom: 0.5px solid #dcdcdc;
+			font-weight: 500;
+			font-size: 20px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+	}
+
+	.contentBox {
+		padding: 0 20px;
+
+		.bijiContent {
+			padding: 20px;
+		}
+	}
+}

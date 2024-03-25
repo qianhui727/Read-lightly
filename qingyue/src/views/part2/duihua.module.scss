@@ -1,0 +1,119 @@
+.total {
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 80vh;
+
+	.aiCard {
+		background-color: rgb(220, 233, 255);
+		width: 100%;
+		padding: 16px;
+		margin-bottom: 8px;
+		border-radius: 8px;
+
+		.aiName {
+			display: inline-block;
+			margin-left: 5px;
+			font-size: 15px;
+		}
+
+		.aiContent {
+			background-color: #fff;
+			padding: 0 8px;
+			border-radius: 5px;
+			margin-top: 5px;
+		}
+	}
+
+	.userCard {
+		// background-color: pink;
+		background-color: #fff;
+		width: 100%;
+		padding: 16px;
+		margin-bottom: 8px;
+		border-radius: 8px;
+
+		.userHeadPhoto {
+			text-align: center;
+			display: inline-block;
+			height: 25px;
+			width: 50px;
+		}
+
+		.userName {
+			display: inline-block;
+			margin-left: 5px;
+			height: 50px;
+			width: 50px;
+		}
+
+		.userContent {
+			background-color: #c7fcdf;
+			padding: 0 8px;
+			border-radius: 5px;
+			margin-top: 5px;
+		}
+	}
+
+	.box {
+		background-color: transparent;
+		height: 75px;
+	}
+
+	.foot {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 65px;
+		margin-bottom: -15px;
+
+		background-color: white;
+
+		.inputCard {
+			width: 80vh;
+			margin: 15px auto;
+		}
+	}
+}
+
+.total::-webkit-scrollbar {
+	width: 8px;
+	/* 设置滚动条宽度 */
+	background-color: white;
+	/* 设置滚动条区域背景色为白色 */
+}
+
+.total::-webkit-scrollbar-track {
+	background-color: white;
+	/* 设置滚动条轨道背景色为白色 */
+}
+
+.total::-webkit-scrollbar-thumb {
+	background-color: white;
+	/* 设置滚动条滑块颜色为白色 */
+	border-radius: 4px;
+	/* 设置滚动条滑块圆角 */
+}
+
+.total {
+	position: relative;
+	height: 80vh;
+	width: 100%;
+	.bgc {
+		position: relative;
+		height: 300px;
+		width: 300px;
+		background: no-repeat url('../../assets/chatGPT.jpg');
+		background-size: 100% 100%;
+		top: 25%;
+		left: 25%;
+	}
+	.button {
+		position: relative;
+		height: 30px;
+		width: 200px;
+		top: 22%;
+		left: 45%;
+		text-align: center;
+		font-size: 15px;
+	}
+}
